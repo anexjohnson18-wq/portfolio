@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" fill="none">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f0f3f5"/>
+      <stop offset=".45" stop-color="#8996a0"/>
+      <stop offset="1" stop-color="#46515b"/>
+    </linearGradient>
+    <linearGradient id="heat" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#1688ff"/>
+      <stop offset=".38" stop-color="#54d8a1"/>
+      <stop offset=".7" stop-color="#d5ef52"/>
+      <stop offset="1" stop-color="#ff704f"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1b2a34"/>
+      <stop offset="1" stop-color="#10161c"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect x="10" y="10" width="540" height="400" rx="20" fill="#11171d" stroke="#34404a"/>
+  <path d="M34 68H526" stroke="#34404a"/>
+  <text x="280" y="45" fill="#f1f4f6" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="750" letter-spacing="2.1" text-anchor="middle">DESIGN <tspan fill="#c7f36b">/</tspan> ENGINEER <tspan fill="#c7f36b">/</tspan> BUILD</text>
+
+  <g>
+    <rect x="24" y="86" width="160" height="234" rx="13" fill="url(#screen)" stroke="#35424c"/>
+    <path d="M38 104H170" stroke="#34404a"/>
+    <circle cx="45" cy="96" r="2" fill="#c7f36b"/>
+    <text x="54" y="100" fill="#9aa6b2" font-family="Segoe UI,Arial,sans-serif" font-size="7" letter-spacing="1.2">CAD MODEL · TROLLEY</text>
+    <g stroke="#91a2ae" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity=".96">
+      <path d="M48 189v-39q0-7 7-7h43q7 0 7 7v39M48 189v59m57-59v59"/>
+      <path d="M32 185h58l22 12H54l-22-12Z" fill="#18232c"/>
+      <path d="M32 185v8l22 12v-8m58-8v8H54v8" fill="#27353f"/>
+      <path d="M32 225h58l22 12H54l-22-12Z" fill="#18232c"/>
+      <path d="M32 225v8l22 12v-8m58-8v8H54v8" fill="#27353f"/>
+      <path d="m48 204 0 21m57-21v21M41 194v29m72-29v29" opacity=".62"/>
+      <path d="M46 248v5l-5 5m18-5v5l-4 5m40-10v5l-4 5m16-10v5l5 5"/>
+      <circle cx="41" cy="261" r="6" fill="#10171d"/>
+      <circle cx="55" cy="261" r="6" fill="#10171d"/>
+      <circle cx="95" cy="261" r="6" fill="#10171d"/>
+      <circle cx="109" cy="261" r="6" fill="#10171d"/>
+      <circle cx="41" cy="261" r="2" fill="#91a2ae"/>
+      <circle cx="55" cy="261" r="2" fill="#91a2ae"/>
+      <circle cx="95" cy="261" r="2" fill="#91a2ae"/>
+      <circle cx="109" cy="261" r="2" fill="#91a2ae"/>
+    </g>
+    <path d="M46 300H162" stroke="#27343d"/>
+    <text x="104" y="312" fill="#c7f36b" font-family="Segoe UI,Arial,sans-serif" font-size="8" letter-spacing="1.4" text-anchor="middle">DESIGN</text>
+  </g>
+
+  <path d="M188 202h13m-5-5 5 5-5 5" stroke="#c7f36b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g>
+    <rect x="200" y="86" width="160" height="234" rx="13" fill="url(#screen)" stroke="#35424c"/>
+    <path d="M214 104H346" stroke="#34404a"/>
+    <circle cx="221" cy="96" r="2" fill="#c7f36b"/>
+    <text x="230" y="100" fill="#9aa6b2" font-family="Segoe UI,Arial,sans-serif" font-size="7" letter-spacing="1.1">TROLLEY · STRESS ANALYSIS</text>
+    <g filter="url(#shadow)" stroke="#26333d" stroke-width="1.2" stroke-linejoin="round">
+      <path d="M224 189v-39q0-7 7-7h43q7 0 7 7v39M224 189v59m57-59v59" fill="none" stroke="url(#heat)" stroke-width="4"/>
+      <path d="M208 185h58l22 12h-58l-22-12Z" fill="url(#heat)"/>
+      <path d="M208 185v8l22 12v-8m58-8v8h-58v8" fill="#28b7db"/>
+      <path d="M208 225h58l22 12h-58l-22-12Z" fill="url(#heat)"/>
+      <path d="M208 225v8l22 12v-8m58-8v8h-58v8" fill="#1688ff"/>
+      <path d="m224 204v21m57-21v21m-64-31v29m72-29v29" fill="none" stroke="#a9f075" stroke-width="2"/>
+      <path d="M222 248v5l-5 5m18-5v5l-4 5m40-10v5l-4 5m16-10v5l5 5" fill="none" stroke="#54d8a1" stroke-width="2"/>
+      <circle cx="217" cy="261" r="6" fill="#10171d" stroke="#ff704f"/>
+      <circle cx="231" cy="261" r="6" fill="#10171d" stroke="#d5ef52"/>
+      <circle cx="271" cy="261" r="6" fill="#10171d" stroke="#54d8a1"/>
+      <circle cx="285" cy="261" r="6" fill="#10171d" stroke="#1688ff"/>
+    </g>
+    <path d="M343 145v70" stroke="#34404a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M343 145v18" stroke="#ff704f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M343 163v18" stroke="#d5ef52" stroke-width="5"/>
+    <path d="M343 181v18" stroke="#54d8a1" stroke-width="5"/>
+    <path d="M343 199v16" stroke="#1688ff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M222 300H338" stroke="#27343d"/>
+    <text x="280" y="312" fill="#c7f36b" font-family="Segoe UI,Arial,sans-serif" font-size="8" letter-spacing="1.15" text-anchor="middle">ENGINEER</text>
+  </g>
+
+  <path d="M364 202h13m-5-5 5 5-5 5" stroke="#c7f36b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g>
+    <rect x="376" y="86" width="160" height="234" rx="13" fill="url(#screen)" stroke="#35424c"/>
+    <path d="M390 104H522" stroke="#34404a"/>
+    <circle cx="397" cy="96" r="2" fill="#c7f36b"/>
+    <text x="406" y="100" fill="#9aa6b2" font-family="Segoe UI,Arial,sans-serif" font-size="7" letter-spacing="1.1">FINISHED TWO-TIER TROLLEY</text>
+    <g filter="url(#shadow)" stroke="#202a32" stroke-width="1.2" stroke-linejoin="round">
+      <path d="M400 189v-39q0-7 7-7h43q7 0 7 7v39M400 189v59m57-59v59" fill="none" stroke="url(#metal)" stroke-width="5"/>
+      <path d="M384 185h58l22 12h-58l-22-12Z" fill="url(#metal)"/>
+      <path d="M384 185v8l22 12v-8m58-8v8h-58v8" fill="#687681"/>
+      <path d="M384 225h58l22 12h-58l-22-12Z" fill="url(#metal)"/>
+      <path d="M384 225v8l22 12v-8m58-8v8h-58v8" fill="#687681"/>
+      <path d="m400 204v21m57-21v21m-64-31v29m72-29v29" fill="none" stroke="#dce4e9" stroke-width="1.5"/>
+      <path d="M398 248v5l-5 5m18-5v5l-4 5m40-10v5l-4 5m16-10v5l5 5" fill="none" stroke="#dce4e9" stroke-width="2"/>
+      <circle cx="393" cy="261" r="6" fill="#10171d" stroke="#aab5bc"/>
+      <circle cx="407" cy="261" r="6" fill="#10171d" stroke="#aab5bc"/>
+      <circle cx="447" cy="261" r="6" fill="#10171d" stroke="#aab5bc"/>
+      <circle cx="461" cy="261" r="6" fill="#10171d" stroke="#aab5bc"/>
+      <circle cx="393" cy="261" r="2" fill="#c7f36b"/>
+      <circle cx="407" cy="261" r="2" fill="#c7f36b"/>
+      <circle cx="447" cy="261" r="2" fill="#c7f36b"/>
+      <circle cx="461" cy="261" r="2" fill="#c7f36b"/>
+    </g>
+    <path d="M398 300H514" stroke="#27343d"/>
+    <text x="456" y="312" fill="#c7f36b" font-family="Segoe UI,Arial,sans-serif" font-size="8" letter-spacing="1.15" text-anchor="middle">BUILD</text>
+  </g>
+
+  <path d="M50 350H154m252 0h104" stroke="#34404a"/>
+  <text x="280" y="354" fill="#9aa6b2" font-family="Segoe UI,Arial,sans-serif" font-size="8" font-style="italic" letter-spacing="2" text-anchor="middle">FROM CONCEPT TO REALITY</text>
+  <path d="M24 374H536" stroke="#27343d"/>
+  <text x="280" y="392" fill="#60707c" font-family="Segoe UI,Arial,sans-serif" font-size="7" letter-spacing="1.4" text-anchor="middle">A TWO-TIER INDUSTRIAL TROLLEY · FROM CAD TO FINISHED PRODUCT</text>
+</svg>

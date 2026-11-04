@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+node_modules/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
